@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
+import '../styles/searchBox.css'
 
 const SearchBox = () => {
-    return <input type="text" placeholder="Find another location"/>
+    return <input className="search-box" type="text" placeholder="Find another location..."/>
 }
 
-export default SearchBox
+export default SearchBox;
