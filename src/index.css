@@ -13,4 +13,9 @@ body {
   font-size: 10px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 

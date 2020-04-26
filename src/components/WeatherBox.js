@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/weatherBox.css';
 
-
 const WeatherBox = ({weather, kelvin}) => {
     return (
         <div className="weather-box">

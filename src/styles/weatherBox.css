@@ -3,12 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+    position: relative;
 }
 
 .weather-box {
@@ -29,7 +24,7 @@ img {
 .weather-box__icon {
     font-size: 2rem;
     margin: 0 auto;
-    filter: invert(100%) drop-shadow(3px 3px rgba(50, 50, 70, 0.5));
+    filter: brightness(0) invert(100%) drop-shadow(3px 3px rgba(50, 50, 70, 0.5));
 }
 
 .weather-box__temp {

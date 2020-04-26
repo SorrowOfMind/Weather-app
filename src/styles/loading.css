@@ -1,0 +1,12 @@
+.loading-box {
+    position: absolute;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+
+.loading-img {
+    font-size: 2rem;
+    margin: 0 auto;
+    filter: brightness(0) invert(100%) drop-shadow(3px 3px rgba(50, 50, 70, 0.5));
+}

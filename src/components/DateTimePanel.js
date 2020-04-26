@@ -13,7 +13,6 @@ const DateTimePanel = () => {
         return () => clearInterval(timer);
     }, []);
 
-
     return (
         <div className="date-time-panel">
         <Today date={date} />
